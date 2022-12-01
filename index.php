@@ -1,7 +1,9 @@
 <?php
 
 include "vendor/autoload.php";
-
+// https://www.youtube.com/watch?v=1s3sopeU0YU
+// https://symfony.ru/doc/current/components/dom_crawler.html
+// php -S localhost:8000
 use Symfony\Component\DomCrawler\Crawler;
 
 $html = file_get_contents('index.html');
